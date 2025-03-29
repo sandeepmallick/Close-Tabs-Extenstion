@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Close Tabs</title>
+    <style>
+        body {
+            width: 300px;
+            background-color: black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 0, 0); 
+            padding: 10px; 
+        }
+        button {
+            width: 120px;
+            padding: 6px;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: initial;
+            background-color: black;
+            color: rgb(255, 0, 0);
+            cursor: pointer;
+            border: 2px solid rgb(255, 5, 5);
+            border-radius: 7px;
+            transition: 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: rgb(255, 5, 5);
+            color: white; /* Fix text visibility */
+        }
+    </style>
+</head>
+<body>
+    <h3>CLOSE ALL THE RECENT TABS</h3>
+    <button id="closeTabs">Close Now</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
