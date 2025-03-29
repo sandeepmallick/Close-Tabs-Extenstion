@@ -1,7 +1,7 @@
 # Click Close Extenstion
 The Close Tab Chrome extension allows users to quickly close the active browser tab with a single click or shortcut. This lightweight extension improves browsing efficiency by reducing the need for multiple clicks.
 
-#Features
+# Features
 Closes the current tab instantly.
 Works with a browser action button.
 Lightweight and fast.
