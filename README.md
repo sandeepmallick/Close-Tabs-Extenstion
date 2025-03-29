@@ -27,7 +27,7 @@ popup.js - Handles tab-closing functionality.
 
 icon.png - Extension icon.
 
-popup.html/css - creat the front page of extenstion
+popup.html/css - create the front page of extenstion
 
 # made by 
 SANDEEP
