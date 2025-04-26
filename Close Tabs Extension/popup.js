@@ -1,4 +1,5 @@
-document.getElementById("closeTabs").addEventListener("click", () => { 
+// document.getElementById("closeTabs").addEventListener("click", () => { 
+document.addEventListener('click', () => { 
     chrome.tabs.query({ currentWindow: true }, function (tabs) {
         if (tabs.length > 1) {     //this checks if there are multiple tabs open or not 
             let activeTab = tabs.find(tab => tab.active);    // Get the active tab
